@@ -9240,3 +9240,16 @@ h6,
   padding: 0;
   list-style-type: none;
 }/*# sourceMappingURL=style.css.map */
+
+.bg-jumbotron_1 {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/page_banner/1.jpg), no-repeat center center;
+  background-size: cover;
+}
+.bg-jumbotron_2 {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/page_banner/2.jpg), no-repeat center center;
+  background-size: cover;
+}
+.bg-jumbotron_3 {
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/page_banner/3.jpg), no-repeat center center;
+  background-size: cover;
+}
