@@ -9253,3 +9253,67 @@ h6,
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/page_banner/3.jpg), no-repeat center center;
   background-size: cover;
 }
+
+.fixed-tel {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  z-index: 9999;
+  text-align: center;
+}
+
+.fixed-tel:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: #248d89;
+  position: absolute;
+  border-radius: 100%;
+  box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.fixed-tel i {
+  vertical-align: middle;
+  z-index: 2;
+  position: relative;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.fixed-tel_2 {
+  position: fixed;
+  bottom: 80px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  z-index: 9999;
+  text-align: center;
+}
+
+.fixed-tel_2:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: #248d89;
+  position: absolute;
+  border-radius: 100%;
+  box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .24);
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.fixed-tel_2 i {
+  vertical-align: middle;
+  z-index: 2;
+  position: relative;
+  color: white;
+  font-size: 1.5rem;
+}
